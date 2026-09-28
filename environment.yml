@@ -1,0 +1,23 @@
+name: drd2-discovery
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - rdkit
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - biopython
+  - requests
+  - sqlalchemy
+  - pytest
+  - pip
+  - pip:
+      - chembl-webresource-client
+      - streamlit
+
